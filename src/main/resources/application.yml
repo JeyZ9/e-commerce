@@ -17,4 +17,4 @@ logging:
         security: debug
 
 BASE_URL: https://localhost:8081
-STRIPE_SECRET_KEY: sk_test_51P8He1IIokcoj9QFggUlmW1fU9lZVqwmZ3OPUupWB8k0wklyDm4Ibsk1CekfwpI9RY2cCwaJqohz8CawTW6veWSx006t741N27
+STRIPE_SECRET_KEY: INPUT_YOUR_SECRET_KEY
