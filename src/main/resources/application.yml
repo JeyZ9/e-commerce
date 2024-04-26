@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/paymentapi
+    username: postgres
+    password: 257890
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    org:
+      springframework:
+        security: debug
+
+BASE_URL: https://localhost:8081
+STRIPE_SECRET_KEY: sk_test_51P8He1IIokcoj9QFggUlmW1fU9lZVqwmZ3OPUupWB8k0wklyDm4Ibsk1CekfwpI9RY2cCwaJqohz8CawTW6veWSx006t741N27
