@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/paymentapi
     username: postgres
-    password: 257890
+    password: password
   jpa:
     hibernate:
       ddl-auto: update
